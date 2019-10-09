@@ -8,8 +8,10 @@ def issym(a):
     return s
 
 
-a = "5454asdasdfaf123fssafa324324vdsvssd,.fAAAAFFFF     gfghsЯЯЯЯЯ"
+if __name__ =="__main__":
 
-assert issym("111aaa  !!!") == "aaa", "Фукция issym не работает"
+    a = "5454asdasdfaf123fssafa324324vdsvssd,.fAAAAFFFF     gfghsЯЯЯЯЯ"
 
-print("Строка без небуквеных и нелатинских символов:\n",issym(a))
+    assert issym("111aaa  !!!") == "aaa", "Фукция issym не работает"
+
+    print("Строка без небуквеных и нелатинских символов:\n", issym(a))
